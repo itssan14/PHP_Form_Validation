@@ -1,0 +1,21 @@
+@import (font.css);
+* {
+  margin: 1px;
+  padding:0px;
+  font-family: Roboto;
+  font-weight:400;
+}
+.box {
+    width:500px;
+    height:500px;
+    position:fixed;
+    margin-left:-150px; /* half of width */
+    margin-top:-85px;  /* half of height */
+    top:50%;
+    left:50%;
+}
+.box table tr td {
+  font-weight:500;
+  font-size:25px;
+}
+

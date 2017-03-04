@@ -1,0 +1,23 @@
+@import 'font.css';
+* {
+  font-family:Roboto;
+}
+.target {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:700;
+  font-size:80px;
+}
+
+.response {
+  position: relative;
+  float: left;
+  top: 53%;
+  left: 25%
+  transform: translate(-50%, -50%);
+  font-weight:500;
+  font-size:16px;
+}
